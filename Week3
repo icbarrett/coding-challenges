@@ -1,0 +1,18 @@
+// Reverse Function
+
+function FirstReverse(str) { 
+
+let reversed = '';
+
+for (let i = 0; i < str.length; i ++) {
+    reversed = str[i] + reversed;
+}
+
+return reversed; 
+
+}
+
+let str1 = "I love coding!";
+let str2 = "LaunchCode";
+console.log(FirstReverse(str1));
+console.log(FirstReverse(str2));
